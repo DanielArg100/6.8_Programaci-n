@@ -15,7 +15,7 @@ if (arrays_de_numeros[4] == 9) {
 
 const week = ["domingo","lunes","martes","miercoles","jueves","viernes","sabado"]
 
-numero_de_la_semana = parseInt(prompt("Ingrese un numero entre el 0 y 6"))
+let numero_de_la_semana = parseInt(prompt("Ingrese un numero entre el 0 y 6"))
 
 if (numero_de_la_semana < 0 && numero_de_la_semana > 6) {
     console.log("Ingreso un valor fuera del rango...")
